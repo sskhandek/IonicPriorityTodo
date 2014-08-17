@@ -1,14 +1,9 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
-})
+.controller('MyListCtrl', function($scope) {
 
-.controller('FriendsCtrl', function($scope) {
-  $scope.friends = [];
-})
+    $scope.friends = [];
 
-.controller('FriendDetailCtrl', function($scope) {
-  $scope.friend = {};
 })
 
 .controller('AccountCtrl', function($scope) {
