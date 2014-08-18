@@ -1,5 +1,7 @@
-<ion-view title="My List">
-  <ion-content class="has-header padding">
-    <h1>Dash</h1>
-  </ion-content>
+<ion-view title="My List" class="has-header">
+    <ion-list>
+        <ion-item ng-repeat="item in items">
+           {{item}}
+        </ion-item>
+    </ion-list>
 </ion-view>
