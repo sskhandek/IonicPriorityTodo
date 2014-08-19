@@ -2,10 +2,15 @@
 
 .bar.bar-stable .title {
     color: #ef4e3a;
+    font-weight:200;
 }
 
 .list-item {
     background-color:#ef4e3a;
     color:#ffffff;
     font-weight:700;
+}
+
+.list-background{
+    background-color: #711c10;
 }

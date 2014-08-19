@@ -4,14 +4,18 @@ angular.module('starter.controllers', [])
 
         $scope.items = [
             {
-                name: "Watch Sherlock",
-                priority: ""
+                name: "Watch Sherlock"
             },
             {
-                name: "Watch House of Cards",
-                priority: ""
+                name: "Watch House of Cards"
             }
         ];
+
+        $scope.moveItem = function(item, fromIndex, toIndex) {
+            //Move the item in the array
+            $scope.items.splice(fromIndex, 1);
+            $scope.items.splice(toIndex, 0, item);
+        };
 
         $scope.colorItems = function(){
 
