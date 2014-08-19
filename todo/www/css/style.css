@@ -1,5 +1,11 @@
 /* Empty. Add your own CSS if you like */
 
-.listItem {
+.bar.bar-stable .title {
+    color: #ef4e3a;
+}
 
+.list-item {
+    background-color:#ef4e3a;
+    color:#ffffff;
+    font-weight:700;
 }

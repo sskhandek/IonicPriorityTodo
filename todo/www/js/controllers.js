@@ -2,7 +2,20 @@ angular.module('starter.controllers', [])
 
 .controller('MyListCtrl', function($scope) {
 
-    $scope.items = ["Pick up groceries", "Watch Sherlock"];
+        $scope.items = [
+            {
+                name: "Watch Sherlock",
+                priority: ""
+            },
+            {
+                name: "Watch House of Cards",
+                priority: ""
+            }
+        ];
+
+        $scope.colorItems = function(){
+
+        };
 
 })
 
@@ -11,8 +24,10 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SignInCtrl', function($scope, $state) {
+
         $scope.signIn = function(user) {
             console.log('Sign-In', user);
             $state.go('tab.mylist');
         };
+
 });
