@@ -2,6 +2,10 @@ angular.module('starter.controllers', [])
 
 .controller('MyListCtrl', function($scope) {
 
+        $scope.controls = {
+            showReorder: false
+        };
+
         $scope.items = [
             {
                 name: "Watch Sherlock"

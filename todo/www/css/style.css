@@ -5,7 +5,7 @@
     font-weight:200;
 }
 
-.list-item {
+.list-item .item-content,.item-reorder {
     background-color:#ef4e3a;
     color:#ffffff;
     font-weight:700;
